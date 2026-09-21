@@ -14,3 +14,9 @@ dependencies = [
     "scipy>=1.18.0",
     "statsmodels>=0.14.4",
 ]
+
+[dependency-groups]
+dev = [
+    "nbconvert[webpdf]>=7.17.1",
+    "playwright>=1.62.0",
+]
